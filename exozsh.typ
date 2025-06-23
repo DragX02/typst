@@ -56,10 +56,13 @@ cd ..
 afficher . et ...
 #rep[ls -1A ~]
 24. Listez de façon détaillée le contenu de /usr sans changer de répertoire de travail.
+rep[ls -la /usr]
 25. Affichez l’arborescence des fichiers contenus dans /var , sans changer de répertoire
 de travail. (aide: tree)
+#rep[tree /var]
 26. Affichez de façon détaillée de le contenu du répertoire /var/log en classant les fichiers
 du plus vieux au plus récent.
+
 27. Affichez de façon détaillée le répertoire /home sans lister son contenu.
 28. Quel est le format des fichiers /etc/passwd , /usr/bin/passwd , /bin/ls et /usr ?
 29. Affichez les informations contenues dans les inodes des fichiers précédents. (Aide:
